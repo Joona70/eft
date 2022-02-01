@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\utils">
+      <UniqueIdentifier>{e6fb6bd2-de45-4677-bee1-8ef44b82e907}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\render">
+      <UniqueIdentifier>{29a35e93-2259-4047-8dd4-bca0fc3e726f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\game">
+      <UniqueIdentifier>{240433cd-3fed-42e7-9231-e5699bb78984}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\ddk">
+      <UniqueIdentifier>{2d50f3ee-53c5-41f6-9f82-3be6b6084b19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\gui">
+      <UniqueIdentifier>{641e9966-e37e-4e53-a158-07c0f5771279}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="global.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="crt.h">
+      <Filter>Исходные файлы\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>Исходные файлы\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="import.h">
+      <Filter>Исходные файлы\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="crypt.h">
+      <Filter>Исходные файлы\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="define.h">
+      <Filter>Исходные файлы\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="ddk.h">
+      <Filter>Исходные файлы\ddk</Filter>
+    </ClInclude>
+    <ClInclude Include="usercallback.h">
+      <Filter>Исходные файлы\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="pageshift.h">
+      <Filter>Исходные файлы\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="directx.h">
+      <Filter>Исходные файлы\render</Filter>
+    </ClInclude>
+    <ClInclude Include="render.h">
+      <Filter>Исходные файлы\render</Filter>
+    </ClInclude>
+    <ClInclude Include="font.h">
+      <Filter>Исходные файлы\render</Filter>
+    </ClInclude>
+    <ClInclude Include="math.h">
+      <Filter>Исходные файлы\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="gui.h">
+      <Filter>Исходные файлы\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="icons.h">
+      <Filter>Исходные файлы\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="config.h">
+      <Filter>Исходные файлы\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="engine.h">
+      <Filter>Исходные файлы\game</Filter>
+    </ClInclude>
+    <ClInclude Include="TODO" />
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="math.asm">
+      <Filter>Исходные файлы\utils</Filter>
+    </MASM>
+    <MASM Include="utils.asm">
+      <Filter>Исходные файлы\utils</Filter>
+    </MASM>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="ddk.lib">
+      <Filter>Исходные файлы\ddk</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
